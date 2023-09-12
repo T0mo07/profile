@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Profile</title>
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- css -->
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="img/logo.svg" alt="ロゴ">
+        </div>
+
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a href="#about" class="header-nav-link">About</a></li>
+                <li class="header-nav-item"><a href="#trip" class="header-nav-link">trip</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="mv-img">
+        <img src="img/mainvisual2.jpg" alt="" width="750" height="729">
+    </div>
+
+    <section class="about">
+        <h2 class="section-ttl"  id="about">About</h2>
+
+        <div class="about-profile">
+            <div class="profile-img">
+                <img src="img/about.jpg" alt="プロフィール画像" width="1264" height="943">
+            </div>
+
+            <div class="profile-txt-box">
+                <h3 class="profile-name">Inoue Tomohiro</h3>
+                <p class="profile-txt">年齢：24歳<br>出身：和歌山<br>趣味：旅行 ゲーム 筋トレ</p>
+            </div>
+        </div>      
+    </section>
+
+    <section class="trip">
+        <h2 class="section-ttl" id="trip">Trip</h2>
+
+        <ul class="trip-list">
+            <li class="trip-item">
+                <div class="trip-img"><img src="img/trip1.jpg" alt="エンジェルロード(香川県)" width="1024" height="768"></div>
+                <h2 class="trip-ttl">エンジェルロード(香川県：小豆島)</h2>
+                <p class="trip-txt">朝5時に起きて撮影した。日の出が神秘的だった</p>
+            </li>
+            <li class="trip-item">
+                <div class="trip-img"><img src="img/trip2.jpg" alt="青い池(北海道)" width="4032" height="3024"></div>
+                <h2 class="trip-ttl">青い池(北海道：美瑛)</h2>
+                <p class="trip-txt">天気もよくて池の水の透明度が高く，澄んでいてきれいだった</p>
+            </li>
+            <li class="trip-item">
+                <div class="trip-img"><img src="img/trip3.jpg" alt="東大門市場(韓国：ソウル)" width="1000" height="750"></div>
+                <h2 class="trip-ttl">東大門市場(韓国：ソウル)</h2>
+                <p class="trip-txt">タッカンマリ(とりの水炊き)を食べた</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <small class="footer-txt">&copy; 2023 Profile</small>
+    </footer>
+</body>
+
+</html>
